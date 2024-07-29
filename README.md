@@ -70,7 +70,7 @@ Create a .env.local file in the root directory and add the following variables:
    NEXT_PUBLIC_FIREBASE_APP_ID=<your_firebase_app_id>
    
    - LLM provider
-   LLM_API_KEY=<your_llm_api_key>
+   LLM_API_KEY=<your_llm_api_key> (That repository, we use OPENAI_API_KEY=<your_openai_api_key>)
    ```
 You can get the Firebase credentials from the Firebase console. Go to project settings, scroll down to the "Your apps" section, and copy the Firebase config values to your .env file.
 

@@ -31,3 +31,30 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 0.5rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}

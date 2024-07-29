@@ -59,19 +59,19 @@ This is a workout planning web application that allows users to register, log in
 Create a .env.local file in the root directory and add the following variables:
    ```bash
    - MongoDB
-MONGODB_URI=<your_mongodb_connection_string>
+   MONGODB_URI=<your_mongodb_connection_string>
 
-- Firebase
-NEXT_PUBLIC_FIREBASE_API_KEY=<your_firebase_api_key>
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=<your_firebase_project_id>
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<your_firebase_storage_bucket>
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
-NEXT_PUBLIC_FIREBASE_APP_ID=<your_firebase_app_id>
-
-- LLM provider
-LLM_API_KEY=<your_llm_api_key>
-```
+   - Firebase
+   NEXT_PUBLIC_FIREBASE_API_KEY=<your_firebase_api_key>
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<your_firebase_auth_domain>
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=<your_firebase_project_id>
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<your_firebase_storage_bucket>
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
+   NEXT_PUBLIC_FIREBASE_APP_ID=<your_firebase_app_id>
+   
+   - LLM provider
+   LLM_API_KEY=<your_llm_api_key>
+   ```
 You can get the Firebase credentials from the Firebase console. Go to project settings, scroll down to the "Your apps" section, and copy the Firebase config values to your .env file.
 
 3. Install dependencies:
